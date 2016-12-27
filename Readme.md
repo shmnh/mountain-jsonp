@@ -2,7 +2,7 @@
 
 1.npm install mountain-jsonp
 
-2. var tool = require('mountain-jsonp');
+2.var tool = require('mountain-jsonp');
 
 e.g:
 
