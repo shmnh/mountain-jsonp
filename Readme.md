@@ -2,16 +2,16 @@
 
 1.npm install mountain-jsonp
 
-2.var tool = require('mountain-jsonp');
+2.var jp = require('mountain-jsonp');
 
 e.g:
 
 jsonp to json
 
-tool.jsonp2json('callback({"name":"jack"})');
+jp.jsonp2json('callback({"name":"jack"})');
 
 json to jsonp
 
-tool.jsonp2json({"name":"jack"}, 'callbackName');
+jp.jsonp2json({"name":"jack"}, callbackName);
 
 
